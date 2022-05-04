@@ -8,7 +8,7 @@ body{
     font-family: 'Open Sans', sans-serif;
 }
 /* COMMON */
-ul{
+ul:not(.col-list){
     list-style-type: none;
     display: flex;
     margin: 0 30px;
@@ -133,12 +133,57 @@ h1{
 }
 .col{
     width: calc(90% / 3);
-    height: 1000px;
+    height: 950px;
     background-color: bisque;
     border: 1px solid red ;
 }
 .col-head{
     width: 100%;
-    height: 50px;
     border: 1px solid red;
+    text-align: center;
+    padding: 10px 0;
+    font-size: 14px;
+}
+.col-card{
+    margin-left: 20px;
+    margin-top: 20px;
+}
+.title-card{
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+.content-card{
+    font-size: 12px;
+    margin-bottom: 20px;
+}
+.gr{
+    color: gray;
+    margin-top: 10px;
+    margin-bottom: 40px;
+}
+.big-blue-buttons{
+    margin-top: 40px;
+    width: 209px;
+    margin-bottom: 30px;
+    padding-left: 35px;
+    font-size: 12px;
+}
+.mid-col{
+    display: inline-block;
+    font-size: 12px;
+    border-bottom: 1px solid gray;
+    padding-bottom: 30px;
+    margin-bottom: 30px;
+}
+.font{
+    font-size: 12px;
+}
+.col-list{
+    list-style-type: none;
+    margin-top: 20px;
+}
+.col-list li i{
+    margin-top: 20px;
+    color: #0563ff;
 }
