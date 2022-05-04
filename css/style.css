@@ -99,12 +99,10 @@ h1{
 .money-pannel{
     width: 100%;
     height: 2000px;
-    background-color: brown;
 }
 .m-container{
     margin: 180px auto 20px;
     width: 60%;
-    background-color: pink;
 }
 .m-container h2{
     font-size: 33px;
@@ -134,12 +132,11 @@ h1{
 .col{
     width: calc(90% / 3);
     height: 950px;
-    background-color: bisque;
-    border: 1px solid red ;
+    border: 1px solid gray ;
 }
 .col-head{
     width: 100%;
-    border: 1px solid red;
+    border: 1px solid gray;
     text-align: center;
     padding: 10px 0;
     font-size: 14px;
