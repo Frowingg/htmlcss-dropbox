@@ -19,7 +19,7 @@ ul:not(.col-list){
     padding: 7px 15px;
     font-size: 15px;
 }
-a:not(.partner-link){
+a:not(.partner-link, .business-footer-link){
     text-decoration: none;
     color: white
 }
@@ -246,27 +246,37 @@ h1{
     margin: 0 auto;
     width: 60%;
     height: 1200px;
-    background-color: pink;
 }
 .business-title{
-    border: 1px solid red;
     height: 5%;
-
+}
+.business-title h2{
+    font-size: 30px;
 }
 .business-table{
-    border: 1px solid red;
     height: 80%;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
 }
-.business-footer{
-    border: 1px solid red;
-    height: 15%;
-}
 .business-col{
     width: calc(97% / 3);
-    border: 1px solid red;
     height: 50%;
-    margin-bottom: 100px;
+}
+.business-col img{
+    width: 100%;
+}
+.business-col h2{
+    margin-bottom: 20px;
+}
+#un_li{
+    text-decoration: underline;
+}
+.business-footer{
+    height: 15%;
+}
+.business-footer h2{
+    margin-top: 50px;
+    margin-bottom: 20px;
+    font-size: 35px;
 }
