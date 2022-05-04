@@ -16,11 +16,10 @@ ul:not(.col-list){
 
 .blue-buttons{
     background-color: #0061ff;
-    /* margin: 20px; */
     padding: 7px 15px;
     font-size: 15px;
 }
-a{
+a:not(.partner-link){
     text-decoration: none;
     color: white
 }
@@ -209,4 +208,36 @@ h1{
 .hor-button{
     text-align: right;
     padding-left: 40px;
+}
+/* PARTNER */
+.partner{
+    display: flex;
+    width: 60%;
+    height: 400px;
+    margin: 125px auto;
+}
+.left-partner{
+    width: 55%;
+}
+.left-partner img{
+    width: 100%;
+}
+.right-partner{
+    width: 45%;
+    margin-left: 50px;
+    margin-top: 50px;
+}
+.right-partner h2{
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+.partner-link{
+    color: gray;
+    text-decoration: none;
+}
+.partner-button{
+    padding: 5px 10px;
+    border: 1px solid gray;
+    width: 150px;
+    margin-top: 20px;
 }
