@@ -24,13 +24,17 @@ a{
     text-decoration: none;
     color: white
 }
-
+.font{
+    font-size: 12px;
+}
 /* HEADER */
 header{
+    background-color: white;
     position: fixed;
     width: 100%;
-    border-bottom: 1px solid black ;
+    height: 70px;
     margin-bottom: 100px;
+    z-index: 1;
 }
 .container{
     display: flex;
@@ -42,16 +46,17 @@ header{
 }
 .container img{
     width: 150px;
-    padding: 20px;
 }
 .menu-left{
     display: flex;
+    padding: 20px;
 }
 .menu-right{
     display: flex;
     position: absolute;
     right: 0;
     top: 0;
+    padding: 20px;
 }
 .menu-left ul li{
     margin-right: 30px;
@@ -173,9 +178,7 @@ h1{
     padding-bottom: 30px;
     margin-bottom: 30px;
 }
-.font{
-    font-size: 12px;
-}
+
 .col-list{
     list-style-type: none;
     margin-top: 20px;
@@ -183,4 +186,27 @@ h1{
 .col-list li i{
     margin-top: 20px;
     color: #0563ff;
+}
+.hor-col{
+    width: 60%;
+    margin: auto;
+    margin-top: 50px;
+    padding-bottom: 5px;
+    border: 1px solid gray;
+}
+.hor-col-title{
+    text-align: center;
+    border: 1px solid gray;
+    padding: 7px 0;
+}
+.hor-col-content{
+    margin: 20px;
+}
+.hor-col-content p{
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+.hor-button{
+    text-align: right;
+    padding-left: 40px;
 }
