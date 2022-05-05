@@ -8,21 +8,35 @@ body{
     font-family: 'Open Sans', sans-serif;
 }
 /* COMMON */
-ul:not(.col-list, .f-list){
-    list-style-type: none;
-    display: flex;
-    margin: 0 30px;
-}
-
-.blue-buttons{
+.blue-button{
     background-color: #0061ff;
-    padding: 7px 15px;
+    padding: 7px 20px;
     font-size: 15px;
 }
-a:not(.partner-link, .business-footer-link){
+/* .blue-button a{
+    color: white;
+    text-decoration: none;
+} */
+/* .blue-button-link{
+    color: white;
+    text-decoration: none;
+} */
+#blue-button-link-1{
+    color: white;
+    text-decoration: none;
+}
+#blue-button-link-2{
+    color: white;
+    text-decoration: none;  
+}
+.big-blue-button-link{
+    color: white;
+    text-decoration: none;
+}
+/* a:not(.partner-link, .business-footer-link){
     text-decoration: none;
     color: white
-}
+} */
 .font{
     font-size: 12px;
 }
@@ -42,7 +56,7 @@ header{
     position: relative;
     font-size: 15px;
 }
-.container a:not(.blue-buttons) {
+.container a:not(.blue-button) {
     color: black;
 }
 .container img{
@@ -59,6 +73,16 @@ header{
     top: 0;
     padding: 20px;
 }
+.menu-left ul{
+    list-style-type: none;
+    display: flex;
+    margin: 0 30px;
+}
+.menu-right ul{
+    list-style-type: none;
+    display: flex;
+    margin: 0 30px; 
+}
 .menu-left ul li{
     margin-right: 30px;
     align-self: center;
@@ -66,6 +90,12 @@ header{
 .menu-right ul li{
     margin-left: 30px;
     align-self: center;
+}
+.menu-left ul li a{
+    text-decoration: none;
+}
+.menu-right ul li a{
+    text-decoration: none;
 }
 /* MAIN */
 
@@ -91,7 +121,7 @@ h1{
     margin-bottom: 25px;
 }
 .jumbo-small p:nth-child(3){
-    margin-top: 12px;
+    margin-top: 15px;
 }
 #darr{
     font-size: 40px;
@@ -142,7 +172,7 @@ h1{
 }
 .col-head{
     width: 100%;
-    border: 1px solid gray;
+    border-bottom: 1px solid gray;
     text-align: center;
     padding: 10px 0;
     font-size: 14px;
@@ -197,7 +227,7 @@ h1{
 }
 .hor-col-title{
     text-align: center;
-    border: 1px solid gray;
+    border-bottom: 1px solid gray;
     padding: 7px 0;
 }
 .hor-col-content{
@@ -206,6 +236,14 @@ h1{
 .hor-col-content p{
     margin-top: 20px;
     margin-bottom: 30px;
+}
+.hor-col-content h2{
+    display: inline;
+}
+.hor-col-content span{
+    display: inline;
+    position: relative;
+    left: 480px;
 }
 .hor-button{
     text-align: right;
@@ -238,10 +276,10 @@ h1{
     text-decoration: none;
 }
 .partner-button{
-    padding: 5px 10px;
     border: 1px solid black;
-    width: 150px;
-    margin-top: 20px;
+    width: 170px;
+    margin-top: 25px;
+    padding: 10px 20px;
 }
 /* DROPBOX-BUSINESS */
 .dropbox-business{
@@ -262,7 +300,7 @@ h1{
     flex-wrap: wrap;
 }
 .business-col{
-    width: calc(97% / 3);
+    width: calc(92% / 3);
     height: 50%;
 }
 .business-col img{
@@ -271,6 +309,9 @@ h1{
 .business-col h2{
     margin-bottom: 20px;
 }
+.business-col p{
+    font-size: 14px;
+}
 #un_li{
     text-decoration: underline;
 }
@@ -278,7 +319,7 @@ h1{
     height: 15%;
 }
 .business-footer h2{
-    margin-top: 50px;
+    margin-top: 70px;
     margin-bottom: 20px;
     font-size: 35px;
 }
@@ -340,7 +381,6 @@ h1{
 }
 .box img{
     width: 55%;
-    color: white;
 }
 .a-sx-left{
     background-color: #a2d39b;
@@ -441,6 +481,10 @@ footer{
 .f-list li{
     list-style-type: none;
     margin-bottom: 10px;
+}
+.f-list li a{
+    color: white;
+    text-decoration: none;  
 }
 .language{
     color: gray;
