@@ -368,7 +368,34 @@ h1{
     background-color: #ffd830;
 }
 /* Call to action */
-/* .call-to-action-container{
+.call-to-action-container{
     height: 300px;
     background-color: #b4d0e7;
-} */
+    display: flex;
+}
+.call-to-action-left{
+    height: 100%;
+    width: 50%;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+.call-to-action-left h2{
+    font-size: 30px;
+    color: #61082b;
+}
+.call-to-action-right{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.call-to-action-button{
+    background-color: white;
+    padding: 10px 50px;
+}
+.call-to-action-button a{
+    text-decoration: none;
+    color: black;
+    font-size: 13px;
+}
