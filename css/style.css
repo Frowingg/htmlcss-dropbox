@@ -8,7 +8,7 @@ body{
     font-family: 'Open Sans', sans-serif;
 }
 /* COMMON */
-ul:not(.col-list){
+ul:not(.col-list, .f-list){
     list-style-type: none;
     display: flex;
     margin: 0 30px;
@@ -377,7 +377,7 @@ h1{
     height: 100%;
     width: 50%;
     display: flex;
-    justify-content: end;
+    justify-content: center;
     align-items: center;
 }
 .call-to-action-left h2{
@@ -398,4 +398,57 @@ h1{
     text-decoration: none;
     color: black;
     font-size: 13px;
+}
+/* FAQ */
+.FAQ-container{
+    margin: 0 auto;
+    width: 60%;
+    margin-bottom: 100px;
+}
+.FAQ-container h2{
+    padding-top: 100px;
+    font-size: 30px;
+    padding-bottom: 30px;
+    border-bottom: 1px solid gray;
+}
+.quest{
+    padding: 25px 0;
+    border-bottom: 1px solid gray;
+}
+.quest i{
+    position: relative;
+    left: 150px
+}
+/* Footer */
+footer{
+    height: 500px;
+    background-color: black;
+    padding-top: 100px;
+}
+.f-cols{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+}
+.f-col{
+    width: calc(100% / 5);
+    height: 100%;
+    color: white;
+}
+.f-col h4{
+    margin-bottom: 20px;
+}
+.f-list li{
+    list-style-type: none;
+    margin-bottom: 10px;
+}
+.language{
+    color: gray;
+    padding-left: 144px;
+    padding-top: 40px;
+}
+footer hr{
+    margin-top: 80px;
+    margin-left: 144px;
+    width: 90px;
 }
