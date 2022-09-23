@@ -187,6 +187,9 @@ h1{
     padding-left: 35px;
     font-size: 12px;
 }
+#m-button{
+    padding: 7px 35px;
+}
 .mid-col{
     display: inline-block;
     font-size: 12px;
@@ -227,7 +230,7 @@ h1{
 .hor-col-content span{
     display: inline;
     position: relative;
-    left: 480px;
+    left: 420px;
 }
 .hor-button{
     text-align: right;
